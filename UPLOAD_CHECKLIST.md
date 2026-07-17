@@ -17,7 +17,7 @@
 ## Release status
 
 - [x] Create the GitHub repository and insert its URL in the dissertation and documentation.
-- [ ] Set public visibility after the final repository audit.
+- [x] Set public visibility after the final repository audit.
 - [x] Fill the confirmed student name, Student ID and sole supervisor in the dissertation copy.
 - [ ] Add the final dissertation PDF after confirming the Form A screening details.
 - [ ] Confirm and fill the exact Form A screening date, outcome and reference.

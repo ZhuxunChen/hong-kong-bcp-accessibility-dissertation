@@ -1,6 +1,6 @@
 # Data and Code Availability
 
-The analysis scripts, frozen reference results, manifests and input snapshots are prepared for public release as a non-commercial academic reproducibility archive at https://github.com/ZhuxunChen/hong-kong-bcp-accessibility-dissertation.
+The analysis scripts, frozen reference results, manifests and input snapshots are published as a non-commercial academic reproducibility archive at https://github.com/ZhuxunChen/hong-kong-bcp-accessibility-dissertation.
 
 The executable Stage 9A workflow is under `analysis/stage9a/scripts/`. Frozen outputs are under `reference_outputs/stage9a/`, and their source-workspace checksums are verified by `tools/verify_reference_outputs.py`. Large generated R5 caches are omitted because they are reconstructed from the retained OSM and GTFS inputs.
 
