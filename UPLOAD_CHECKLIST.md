@@ -22,5 +22,4 @@
 - [ ] Add the final dissertation PDF after confirming the Form A screening details.
 - [ ] Confirm and fill the exact Form A screening date, outcome and reference.
 - [x] Identify `数据/HK_GTFS/mtr_gtfs.zip` as a non-official project-generated approximation and retain the upstream-rights disclaimer.
-- [x] Publish without granting a commercial reuse licence; third-party terms remain separate.
 - [ ] Regenerate `docs/REPOSITORY_MANIFEST.sha256` after any replacement.

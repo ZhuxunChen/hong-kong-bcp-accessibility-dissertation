@@ -97,4 +97,4 @@ Rscript -e 'renv::status()'
 
 ## Data and release status
 
-Third-party sources and attribution are documented in `docs/THIRD_PARTY_DATA.md`. This repository is published as a non-commercial academic reproducibility archive. The project-generated `数据/HK_GTFS/mtr_gtfs.zip` is an analytical approximation rather than an official MTR timetable, and inclusion does not transfer rights in upstream information. No commercial reuse licence is granted. The dissertation PDF is intentionally omitted until the final Form A screening details have been confirmed; the final submission copy can be added afterwards without changing the analytical package.
+Third-party sources and attribution are documented in `docs/THIRD_PARTY_DATA.md`. This repository is published as an academic reproducibility archive. The project-generated `数据/HK_GTFS/mtr_gtfs.zip` is an analytical approximation rather than an official MTR timetable, and inclusion does not transfer rights in upstream information. The dissertation PDF is intentionally omitted until the final Form A screening details have been confirmed; the final submission copy can be added afterwards without changing the analytical package.
