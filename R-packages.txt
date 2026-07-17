@@ -1,0 +1,11 @@
+R==4.5.1
+renv==1.2.3
+Java==21.0.11
+r5r==2.4.0
+r5-engine==7.5.1
+sf==1.0-21
+tidyverse==2.0.0
+data.table==1.17.8
+readxl==1.4.5
+tmap==4.2
+viridis==0.6.5

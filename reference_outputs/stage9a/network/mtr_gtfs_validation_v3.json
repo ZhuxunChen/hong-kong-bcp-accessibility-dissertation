@@ -1,0 +1,117 @@
+{
+  "valid": true,
+  "errors": [],
+  "routes": 9,
+  "trips": 7168,
+  "stop_time_rows": 104760,
+  "directions": [
+    0,
+    1
+  ],
+  "route_audit": [
+    {
+      "route_id": "MTR_EAL",
+      "trip_count": 820,
+      "direction_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "route_id": "MTR_EAL_LMC",
+      "trip_count": 612,
+      "direction_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "route_id": "MTR_TWL",
+      "trip_count": 1024,
+      "direction_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "route_id": "MTR_KTL",
+      "trip_count": 1024,
+      "direction_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "route_id": "MTR_ISL",
+      "trip_count": 1024,
+      "direction_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "route_id": "MTR_TML",
+      "trip_count": 820,
+      "direction_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "route_id": "MTR_TKL",
+      "trip_count": 820,
+      "direction_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "route_id": "MTR_TCL",
+      "trip_count": 512,
+      "direction_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "route_id": "MTR_SIL",
+      "trip_count": 512,
+      "direction_ids": [
+        0,
+        1
+      ]
+    }
+  ],
+  "interchange_stop_count": 27,
+  "interchange_stops": [
+    "MTR_ADM",
+    "MTR_CEN",
+    "MTR_DIH",
+    "MTR_EXC",
+    "MTR_FAN",
+    "MTR_FOT",
+    "MTR_HOM",
+    "MTR_HUH",
+    "MTR_KOT",
+    "MTR_LAK",
+    "MTR_MEF",
+    "MTR_MKK",
+    "MTR_MOK",
+    "MTR_NAC",
+    "MTR_NOP",
+    "MTR_PRE",
+    "MTR_QUB",
+    "MTR_SHS",
+    "MTR_SHT",
+    "MTR_SKM",
+    "MTR_TAP",
+    "MTR_TAW",
+    "MTR_TIK",
+    "MTR_TWO",
+    "MTR_UNI",
+    "MTR_YAT",
+    "MTR_YMT"
+  ],
+  "monotonic_failure_count": 0,
+  "reverse_sequence_failure_count": 0
+}

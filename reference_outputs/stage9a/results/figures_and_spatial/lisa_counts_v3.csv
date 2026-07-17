@@ -1,0 +1,21 @@
+variable,correction,cluster,count
+min_tt,raw_p_lt_0.05,Not significant,125
+min_tt,raw_p_lt_0.05,High-High,42
+min_tt,raw_p_lt_0.05,Low-High,4
+min_tt,raw_p_lt_0.05,Low-Low,35
+min_tt,raw_p_lt_0.05,High-Low,3
+min_tt,fdr_bh_0.05,Not significant,156
+min_tt,fdr_bh_0.05,High-High,23
+min_tt,fdr_bh_0.05,Low-High,4
+min_tt,fdr_bh_0.05,Low-Low,23
+min_tt,fdr_bh_0.05,High-Low,3
+bcps_within_60,raw_p_lt_0.05,Not significant,81
+bcps_within_60,raw_p_lt_0.05,High-High,25
+bcps_within_60,raw_p_lt_0.05,Low-High,2
+bcps_within_60,raw_p_lt_0.05,Low-Low,98
+bcps_within_60,raw_p_lt_0.05,High-Low,3
+bcps_within_60,fdr_bh_0.05,Not significant,85
+bcps_within_60,fdr_bh_0.05,High-High,22
+bcps_within_60,fdr_bh_0.05,Low-High,1
+bcps_within_60,fdr_bh_0.05,Low-Low,98
+bcps_within_60,fdr_bh_0.05,High-Low,3

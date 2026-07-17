@@ -1,0 +1,360 @@
+{
+  "place_tpu": {
+    "min_tt": {
+      "grain": "TPU",
+      "weighting": "equal",
+      "variable": "min_tt",
+      "n": 209,
+      "minimum": 20.0,
+      "maximum": 113.0,
+      "mean": 67.0,
+      "sd": 17.864070084949844,
+      "p10": 43.0,
+      "p25": 59.0,
+      "median": 66.0,
+      "p75": 79.0,
+      "p90": 89.20000000000002,
+      "gini": 0.14832980082531877,
+      "zero_count": 0,
+      "zero_share": 0.0
+    },
+    "bcps_within_45": {
+      "grain": "TPU",
+      "weighting": "equal",
+      "variable": "bcps_within_45",
+      "n": 209,
+      "minimum": 0.0,
+      "maximum": 5.0,
+      "mean": 0.27751196172248804,
+      "sd": 0.8712951958813068,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p90": 1.0,
+      "gini": 0.9137106088104273,
+      "zero_count": 182,
+      "zero_share": 0.8708133971291866
+    },
+    "bcps_within_60": {
+      "grain": "TPU",
+      "weighting": "equal",
+      "variable": "bcps_within_60",
+      "n": 209,
+      "minimum": 0.0,
+      "maximum": 5.0,
+      "mean": 0.7894736842105263,
+      "sd": 1.4154654747189905,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 1.0,
+      "p90": 4.0,
+      "gini": 0.7780194287371321,
+      "zero_count": 138,
+      "zero_share": 0.6602870813397129
+    },
+    "bcps_within_75": {
+      "grain": "TPU",
+      "weighting": "equal",
+      "variable": "bcps_within_75",
+      "n": 209,
+      "minimum": 0.0,
+      "maximum": 6.0,
+      "mean": 2.1196172248803826,
+      "sd": 1.875973554146146,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 2.0,
+      "p75": 3.0,
+      "p90": 5.0,
+      "gini": 0.49512350545972983,
+      "zero_count": 62,
+      "zero_share": 0.2966507177033493
+    },
+    "bcps_within_90": {
+      "grain": "TPU",
+      "weighting": "equal",
+      "variable": "bcps_within_90",
+      "n": 209,
+      "minimum": 0.0,
+      "maximum": 6.0,
+      "mean": 3.971291866028708,
+      "sd": 2.040253273300246,
+      "p10": 1.0,
+      "p25": 2.0,
+      "median": 5.0,
+      "p75": 6.0,
+      "p90": 6.0,
+      "gini": 0.2819968870698104,
+      "zero_count": 20,
+      "zero_share": 0.09569377990430622
+    }
+  },
+  "population_weighted_stpug": {
+    "min_tt": {
+      "grain": "STPUG",
+      "weighting": "population",
+      "variable": "min_tt",
+      "n": 176,
+      "population": 6813387,
+      "minimum": 20.0,
+      "maximum": 107.0,
+      "mean": 64.62239265140818,
+      "sd": 17.777104672993588,
+      "p10": 39.0,
+      "p25": 56.0,
+      "median": 66.0,
+      "p75": 76.0,
+      "p90": 86.0,
+      "gini": 0.15382892374799417,
+      "zero_count": 0,
+      "zero_share": 0.0
+    },
+    "bcps_within_45": {
+      "grain": "STPUG",
+      "weighting": "population",
+      "variable": "bcps_within_45",
+      "n": 176,
+      "population": 6813387,
+      "minimum": 0.0,
+      "maximum": 5.0,
+      "mean": 0.3776751562769002,
+      "sd": 0.9982753269949968,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p90": 1.0,
+      "gini": 0.8770344351601913,
+      "zero_count": 153,
+      "zero_share": 0.8122422812618746
+    },
+    "bcps_within_60": {
+      "grain": "STPUG",
+      "weighting": "population",
+      "variable": "bcps_within_60",
+      "n": 176,
+      "population": 6813387,
+      "minimum": 0.0,
+      "maximum": 5.0,
+      "mean": 0.8719234647907127,
+      "sd": 1.4777888689279397,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 1.0,
+      "p90": 3.0,
+      "gini": 0.7671001016706337,
+      "zero_count": 116,
+      "zero_share": 0.6676542811967088
+    },
+    "bcps_within_75": {
+      "grain": "STPUG",
+      "weighting": "population",
+      "variable": "bcps_within_75",
+      "n": 176,
+      "population": 6813387,
+      "minimum": 0.0,
+      "maximum": 6.0,
+      "mean": 2.2124175538539057,
+      "sd": 2.038503525948944,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 2.0,
+      "p75": 4.0,
+      "p90": 6.0,
+      "gini": 0.5120424396095316,
+      "zero_count": 51,
+      "zero_share": 0.2794903621356016
+    },
+    "bcps_within_90": {
+      "grain": "STPUG",
+      "weighting": "population",
+      "variable": "bcps_within_90",
+      "n": 176,
+      "population": 6813387,
+      "minimum": 0.0,
+      "maximum": 6.0,
+      "mean": 3.9669632739194176,
+      "sd": 1.84715327817158,
+      "p10": 1.0,
+      "p25": 2.0,
+      "median": 4.0,
+      "p75": 6.0,
+      "p90": 6.0,
+      "gini": 0.2597032790015744,
+      "zero_count": 11,
+      "zero_share": 0.03619638808128762
+    }
+  },
+  "spatial_tpu": {
+    "min_tt": {
+      "variable": "min_tt",
+      "n": 209,
+      "minimum": 20.0,
+      "maximum": 113.0,
+      "mean": 67.0,
+      "median": 66.0,
+      "sd": 17.864070084949844,
+      "moran_i": 0.8399443413732915,
+      "expected_i": -0.004807692307692308,
+      "z_normal": 16.52100921771749,
+      "p_permutation": 0.001,
+      "queen_islands": 4,
+      "queen_mean_neighbors": 4.373205741626794
+    },
+    "bcps_within_60": {
+      "variable": "bcps_within_60",
+      "n": 209,
+      "minimum": 0.0,
+      "maximum": 5.0,
+      "mean": 0.7894736842105263,
+      "median": 0.0,
+      "sd": 1.4154654747189905,
+      "moran_i": 0.8360258826021307,
+      "expected_i": -0.004807692307692308,
+      "z_normal": 16.444375021058022,
+      "p_permutation": 0.001,
+      "queen_islands": 4,
+      "queen_mean_neighbors": 4.373205741626794
+    }
+  },
+  "lisa_counts": [
+    {
+      "variable": "min_tt",
+      "correction": "raw_p_lt_0.05",
+      "cluster": "Not significant",
+      "count": 125
+    },
+    {
+      "variable": "min_tt",
+      "correction": "raw_p_lt_0.05",
+      "cluster": "High-High",
+      "count": 42
+    },
+    {
+      "variable": "min_tt",
+      "correction": "raw_p_lt_0.05",
+      "cluster": "Low-High",
+      "count": 4
+    },
+    {
+      "variable": "min_tt",
+      "correction": "raw_p_lt_0.05",
+      "cluster": "Low-Low",
+      "count": 35
+    },
+    {
+      "variable": "min_tt",
+      "correction": "raw_p_lt_0.05",
+      "cluster": "High-Low",
+      "count": 3
+    },
+    {
+      "variable": "min_tt",
+      "correction": "fdr_bh_0.05",
+      "cluster": "Not significant",
+      "count": 156
+    },
+    {
+      "variable": "min_tt",
+      "correction": "fdr_bh_0.05",
+      "cluster": "High-High",
+      "count": 23
+    },
+    {
+      "variable": "min_tt",
+      "correction": "fdr_bh_0.05",
+      "cluster": "Low-High",
+      "count": 4
+    },
+    {
+      "variable": "min_tt",
+      "correction": "fdr_bh_0.05",
+      "cluster": "Low-Low",
+      "count": 23
+    },
+    {
+      "variable": "min_tt",
+      "correction": "fdr_bh_0.05",
+      "cluster": "High-Low",
+      "count": 3
+    },
+    {
+      "variable": "bcps_within_60",
+      "correction": "raw_p_lt_0.05",
+      "cluster": "Not significant",
+      "count": 81
+    },
+    {
+      "variable": "bcps_within_60",
+      "correction": "raw_p_lt_0.05",
+      "cluster": "High-High",
+      "count": 25
+    },
+    {
+      "variable": "bcps_within_60",
+      "correction": "raw_p_lt_0.05",
+      "cluster": "Low-High",
+      "count": 2
+    },
+    {
+      "variable": "bcps_within_60",
+      "correction": "raw_p_lt_0.05",
+      "cluster": "Low-Low",
+      "count": 98
+    },
+    {
+      "variable": "bcps_within_60",
+      "correction": "raw_p_lt_0.05",
+      "cluster": "High-Low",
+      "count": 3
+    },
+    {
+      "variable": "bcps_within_60",
+      "correction": "fdr_bh_0.05",
+      "cluster": "Not significant",
+      "count": 85
+    },
+    {
+      "variable": "bcps_within_60",
+      "correction": "fdr_bh_0.05",
+      "cluster": "High-High",
+      "count": 22
+    },
+    {
+      "variable": "bcps_within_60",
+      "correction": "fdr_bh_0.05",
+      "cluster": "Low-High",
+      "count": 1
+    },
+    {
+      "variable": "bcps_within_60",
+      "correction": "fdr_bh_0.05",
+      "cluster": "Low-Low",
+      "count": 98
+    },
+    {
+      "variable": "bcps_within_60",
+      "correction": "fdr_bh_0.05",
+      "cluster": "High-Low",
+      "count": 3
+    }
+  ],
+  "gwr": {
+    "n": 176,
+    "bandwidth": 47.0,
+    "r2": 0.784593158312568,
+    "adjusted_r2": 0.743925371456899,
+    "aicc": 1300.757020996081,
+    "income_min": -20.661719858085632,
+    "income_max": 12.120211601872352,
+    "critical_t": 2.8174698383122907,
+    "income_significant_count": 18
+  },
+  "income_bivariate": {
+    "pearson_r": 0.25239010403513246,
+    "p": 0.000726567068930891
+  }
+}

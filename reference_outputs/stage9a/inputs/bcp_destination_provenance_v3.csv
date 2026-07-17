@@ -1,0 +1,7 @@
+"id","bcp_name","source_feed","source_stop_id","source_stop_name","lon","lat"
+"LW","Lo Wu","mtr_gtfs.zip","MTR_LOW","Lo Wu",114.1142,22.5281
+"LMC","Lok Ma Chau Spur Line","mtr_gtfs.zip","MTR_LMC","Lok Ma Chau",114.0692,22.5147
+"HG","Lok Ma Chau","hk_gtfs.zip","10000339","[XB] LOK MA CHAU CONTROL POINT (BOARDING STOP)",114.0733,22.50991
+"SB","Shenzhen Bay Port","hk_gtfs.zip","12728","[CTB] SHENZHEN BAY PORT|[NLB] SHENZHEN BAY PORT",113.9458,22.5014
+"MKT","Man Kam To","hk_gtfs.zip","6701","[KMB] MAN KAM TO (SAN UK LING)",114.13175,22.53455
+"HYW","Heung Yuen Wai","hk_gtfs.zip","10000179","[CTB] HEUNG YUEN WAI PORT|[KMB] HEUNG YUEN WAI CONTROL POINT",114.15411,22.55202

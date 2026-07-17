@@ -1,0 +1,111 @@
+{
+  "aggregation_rule": "Median travel time across runs; retain OD if p50 exists in at least ceil(n_runs/2) runs.",
+  "tpu": {
+    "grain": "tpu",
+    "n_runs": 5,
+    "minimum_run_presence": 3,
+    "per_run": [
+      {
+        "run": 1,
+        "path": "analysis/stage9a/runs/run_01/travel_time_matrix_tpu_v3.csv",
+        "rows": 1183,
+        "origins_with_any_row": 216,
+        "origins_with_valid_p50": 210,
+        "valid_p50_rows": 1164
+      },
+      {
+        "run": 2,
+        "path": "analysis/stage9a/runs/run_02/travel_time_matrix_tpu_v3.csv",
+        "rows": 1185,
+        "origins_with_any_row": 215,
+        "origins_with_valid_p50": 209,
+        "valid_p50_rows": 1160
+      },
+      {
+        "run": 3,
+        "path": "analysis/stage9a/runs/run_03/travel_time_matrix_tpu_v3.csv",
+        "rows": 1185,
+        "origins_with_any_row": 215,
+        "origins_with_valid_p50": 210,
+        "valid_p50_rows": 1167
+      },
+      {
+        "run": 4,
+        "path": "analysis/stage9a/runs/run_04/travel_time_matrix_tpu_v3.csv",
+        "rows": 1183,
+        "origins_with_any_row": 215,
+        "origins_with_valid_p50": 209,
+        "valid_p50_rows": 1162
+      },
+      {
+        "run": 5,
+        "path": "analysis/stage9a/runs/run_05/travel_time_matrix_tpu_v3.csv",
+        "rows": 1185,
+        "origins_with_any_row": 215,
+        "origins_with_valid_p50": 209,
+        "valid_p50_rows": 1162
+      }
+    ],
+    "stable_od_rows": 1162,
+    "stable_origins": 209,
+    "od_rows_present_all_runs": 1158,
+    "p50_run_sd_median": 0.4472135954999579,
+    "p50_run_sd_p95": 0.8944271909999159,
+    "p50_run_range_median": 1.0,
+    "p50_run_range_max": 4.0
+  },
+  "stpug": {
+    "grain": "stpug",
+    "n_runs": 5,
+    "minimum_run_presence": 3,
+    "per_run": [
+      {
+        "run": 1,
+        "path": "analysis/stage9a/runs/run_01/travel_time_matrix_stpug_v3.csv",
+        "rows": 1012,
+        "origins_with_any_row": 179,
+        "origins_with_valid_p50": 175,
+        "valid_p50_rows": 996
+      },
+      {
+        "run": 2,
+        "path": "analysis/stage9a/runs/run_02/travel_time_matrix_stpug_v3.csv",
+        "rows": 1011,
+        "origins_with_any_row": 179,
+        "origins_with_valid_p50": 175,
+        "valid_p50_rows": 997
+      },
+      {
+        "run": 3,
+        "path": "analysis/stage9a/runs/run_03/travel_time_matrix_stpug_v3.csv",
+        "rows": 1011,
+        "origins_with_any_row": 179,
+        "origins_with_valid_p50": 176,
+        "valid_p50_rows": 1000
+      },
+      {
+        "run": 4,
+        "path": "analysis/stage9a/runs/run_04/travel_time_matrix_stpug_v3.csv",
+        "rows": 1009,
+        "origins_with_any_row": 178,
+        "origins_with_valid_p50": 176,
+        "valid_p50_rows": 999
+      },
+      {
+        "run": 5,
+        "path": "analysis/stage9a/runs/run_05/travel_time_matrix_stpug_v3.csv",
+        "rows": 1012,
+        "origins_with_any_row": 179,
+        "origins_with_valid_p50": 176,
+        "valid_p50_rows": 999
+      }
+    ],
+    "stable_od_rows": 1000,
+    "stable_origins": 176,
+    "od_rows_present_all_runs": 995,
+    "p50_run_sd_median": 0.4472135954999579,
+    "p50_run_sd_p95": 1.0954451150103321,
+    "p50_run_range_median": 1.0,
+    "p50_run_range_max": 14.0
+  }
+}

@@ -1,0 +1,11 @@
+.DS_Store
+.Rhistory
+.Rproj.user/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+analysis/stage9a/network/network.dat
+analysis/stage9a/network/*.mapdb*
+analysis/stage9a/network/r5r-log.log
+analysis/stage9a/network/gtfs_errors.csv

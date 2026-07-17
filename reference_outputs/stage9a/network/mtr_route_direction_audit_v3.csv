@@ -1,0 +1,10 @@
+route_id,trip_count,direction_count,direction_ids
+MTR_EAL,820,2,"0,1"
+MTR_EAL_LMC,612,2,"0,1"
+MTR_ISL,1024,2,"0,1"
+MTR_KTL,1024,2,"0,1"
+MTR_SIL,512,2,"0,1"
+MTR_TCL,512,2,"0,1"
+MTR_TKL,820,2,"0,1"
+MTR_TML,820,2,"0,1"
+MTR_TWL,1024,2,"0,1"

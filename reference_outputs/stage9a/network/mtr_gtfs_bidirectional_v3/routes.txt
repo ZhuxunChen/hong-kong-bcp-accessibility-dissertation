@@ -1,0 +1,10 @@
+route_id,agency_id,route_short_name,route_long_name,route_type
+MTR_EAL,MTR,EAL,East Rail Line (Lo Wu),2
+MTR_EAL_LMC,MTR,EAL-LMC,East Rail Line (Lok Ma Chau),2
+MTR_TWL,MTR,TWL,Tsuen Wan Line,2
+MTR_KTL,MTR,KTL,Kwun Tong Line,2
+MTR_ISL,MTR,ISL,Island Line,2
+MTR_TML,MTR,TML,Tuen Ma Line,2
+MTR_TKL,MTR,TKL,Tseung Kwan O Line,2
+MTR_TCL,MTR,TCL,Tung Chung Line,2
+MTR_SIL,MTR,SIL,South Island Line,2

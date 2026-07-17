@@ -1,0 +1,16 @@
+Stage 9A routing repetition: run_04
+Started: 2026-07-14 13:34:10 BST
+Finished: 2026-07-14 13:36:37 BST
+Network: bidirectional MTR GTFS v3 + frozen Hong Kong GTFS + frozen OSM PBF
+Departure: 2026-06-29 08:00:00 Asia/Hong_Kong (Monday)
+Modes: WALK + TRANSIT
+Time window: 30 minutes; draws_per_minute: 5
+Percentiles: 25, 50, 75
+Maximum trip duration: 120 minutes; maximum walking time: 20 minutes
+Destinations: LW, LMC, HG, SB, MKT, HYW
+TPU origins requested: 292
+TPU origins returned: 215
+TPU OD rows returned: 1183
+STPUG origins requested: 211
+STPUG origins returned: 178
+STPUG OD rows returned: 1009

@@ -1,0 +1,6 @@
+classification,N,grain,total_origins,share
+requires_snap_radius_over_1600m,4,tpu,292,0.0136986301369863
+snapped_but_no_stable_p50_route_within_120min,79,tpu,292,0.27054794520548
+stable_route,209,tpu,292,0.715753424657534
+snapped_but_no_stable_p50_route_within_120min,35,stpug,211,0.165876777251185
+stable_route,176,stpug,211,0.834123222748815

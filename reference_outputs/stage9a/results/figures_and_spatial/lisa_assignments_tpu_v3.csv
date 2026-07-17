@@ -1,0 +1,210 @@
+TPU,min_tt,bcps_within_60,min_tt_cluster_raw,min_tt_cluster_fdr_bh,min_tt_p_sim,bcps_within_60_cluster_raw,bcps_within_60_cluster_fdr_bh,bcps_within_60_p_sim
+111,86.0,0.0,High-High,Not significant,0.029,Low-Low,Low-Low,0.001
+112,76.0,0.0,Not significant,Not significant,0.124,Low-Low,Low-Low,0.001
+113,72.0,0.0,Not significant,Not significant,0.126,Low-Low,Low-Low,0.001
+114,70.0,0.0,Not significant,Not significant,0.318,Low-Low,Low-Low,0.001
+115,70.0,0.0,Not significant,Not significant,0.285,Low-Low,Low-Low,0.001
+116,77.0,0.0,High-High,Not significant,0.049,Low-Low,Low-Low,0.001
+121,71.0,0.0,Not significant,Not significant,0.42,Low-Low,Low-Low,0.001
+122,70.0,0.0,Not significant,Not significant,0.408,Low-Low,Low-Low,0.001
+123,63.0,0.0,Not significant,Not significant,0.369,Not significant,Not significant,0.267
+124,60.0,1.0,Not significant,Not significant,0.497,Not significant,Not significant,0.118
+131,66.0,0.0,Not significant,Not significant,0.483,Not significant,Not significant,0.214
+132,67.0,0.0,Low-High,Low-High,0.001,Low-Low,Low-Low,0.001
+133,67.0,0.0,Low-Low,Low-Low,0.001,Not significant,Not significant,0.27
+134,59.0,1.0,Not significant,Not significant,0.377,Not significant,Not significant,0.183
+135,63.0,0.0,Not significant,Not significant,0.49,Not significant,Not significant,0.269
+140,81.0,0.0,High-High,Not significant,0.02,Low-Low,Low-Low,0.001
+141,88.0,0.0,High-High,High-High,0.009,Low-Low,Low-Low,0.001
+142,72.0,0.0,High-High,Not significant,0.024,Not significant,Not significant,0.066
+143,75.0,0.0,Not significant,Not significant,0.133,Not significant,Not significant,0.18
+144,76.0,0.0,High-High,High-High,0.011,Low-Low,Low-Low,0.001
+145,82.0,0.0,Not significant,Not significant,0.124,Low-Low,Low-Low,0.001
+146,69.0,0.0,Not significant,Not significant,0.257,Low-Low,Low-Low,0.001
+147,73.0,0.0,Not significant,Not significant,0.297,Low-Low,Low-Low,0.001
+148,78.0,0.0,High-High,Not significant,0.021,Low-Low,Low-Low,0.001
+149,79.0,0.0,High-High,Not significant,0.022,Low-Low,Low-Low,0.001
+151,73.0,0.0,Not significant,Not significant,0.073,Low-Low,Low-Low,0.001
+152,82.0,0.0,Not significant,Not significant,0.095,Low-Low,Low-Low,0.001
+153,76.0,0.0,Not significant,Not significant,0.095,Low-Low,Low-Low,0.001
+154,85.0,0.0,Not significant,Not significant,0.135,Low-Low,Low-Low,0.001
+155,75.0,0.0,High-High,Not significant,0.029,Low-Low,Low-Low,0.001
+156,94.0,0.0,Not significant,Not significant,0.057,Low-Low,Low-Low,0.001
+157,76.0,0.0,High-High,Not significant,0.043,Low-Low,Low-Low,0.001
+161,81.0,0.0,High-High,High-High,0.001,Low-Low,Low-Low,0.001
+162,100.0,0.0,High-High,High-High,0.002,Low-Low,Low-Low,0.001
+163,93.0,0.0,High-High,High-High,0.01,Low-Low,Low-Low,0.001
+164,100.0,0.0,High-High,High-High,0.003,Low-Low,Low-Low,0.001
+165,90.0,0.0,High-High,High-High,0.001,Low-Low,Low-Low,0.001
+166,89.0,0.0,High-High,High-High,0.007,Low-Low,Low-Low,0.001
+171,89.0,0.0,High-High,High-High,0.003,Low-Low,Low-Low,0.001
+172,84.0,0.0,High-High,High-High,0.001,Low-Low,Low-Low,0.001
+173,98.0,0.0,High-High,Not significant,0.016,Low-Low,Low-Low,0.001
+174,81.0,0.0,High-Low,High-Low,0.001,Low-Low,Low-Low,0.001
+175,79.0,0.0,High-High,High-High,0.002,Low-Low,Low-Low,0.001
+181,102.0,0.0,High-High,High-High,0.005,Low-Low,Low-Low,0.001
+182,103.0,0.0,High-High,High-High,0.001,Low-Low,Low-Low,0.001
+184,99.0,0.0,High-High,High-High,0.003,Low-Low,Low-Low,0.001
+190,95.0,0.0,High-High,Not significant,0.015,Low-Low,Low-Low,0.001
+191,85.0,0.0,Not significant,Not significant,0.094,Low-Low,Low-Low,0.001
+192,85.0,0.0,High-High,High-High,0.002,Low-Low,Low-Low,0.001
+193,102.0,0.0,High-High,Not significant,0.021,Low-Low,Low-Low,0.001
+195,96.0,0.0,High-High,High-High,0.012,Low-Low,Low-Low,0.001
+211,68.0,0.0,Not significant,Not significant,0.441,Not significant,Not significant,0.132
+212,65.0,0.0,Not significant,Not significant,0.346,Not significant,Not significant,0.269
+213,65.0,0.0,Not significant,Not significant,0.239,Not significant,Not significant,0.28
+214,60.0,1.0,Not significant,Not significant,0.397,Not significant,Not significant,0.182
+215,59.0,1.0,Not significant,Not significant,0.328,Not significant,Not significant,0.138
+216,66.0,0.0,Not significant,Not significant,0.325,Not significant,Not significant,0.42
+217,59.0,1.0,Not significant,Not significant,0.341,Not significant,Not significant,0.425
+220,59.0,1.0,Not significant,Not significant,0.283,Not significant,Not significant,0.277
+221,60.0,1.0,Not significant,Not significant,0.17,Not significant,Not significant,0.394
+222,58.0,1.0,Not significant,Not significant,0.082,Not significant,Not significant,0.371
+225,65.0,0.0,Not significant,Not significant,0.383,Low-Low,Low-Low,0.028
+226,68.0,0.0,Not significant,Not significant,0.265,Not significant,Not significant,0.097
+227,60.0,1.0,Not significant,Not significant,0.196,Not significant,Not significant,0.284
+228,61.0,0.0,Not significant,Not significant,0.301,Not significant,Not significant,0.235
+229,59.0,1.0,Not significant,Not significant,0.151,Not significant,Not significant,0.482
+231,60.0,1.0,Not significant,Not significant,0.147,Not significant,Not significant,0.482
+232,64.0,0.0,Not significant,Not significant,0.209,Not significant,Not significant,0.486
+233,66.0,0.0,Not significant,Not significant,0.241,Not significant,Not significant,0.478
+234,59.0,1.0,Not significant,Not significant,0.229,Not significant,Not significant,0.239
+235,67.0,0.0,Low-Low,Low-Low,0.001,Not significant,Not significant,0.377
+236,66.0,0.0,Not significant,Not significant,0.277,Not significant,Not significant,0.213
+237,62.0,0.0,Not significant,Not significant,0.184,Not significant,Not significant,0.478
+241,51.0,2.0,Not significant,Not significant,0.147,Not significant,Not significant,0.483
+242,58.0,1.0,Not significant,Not significant,0.18,Not significant,Not significant,0.381
+243,61.0,0.0,Not significant,Not significant,0.153,Not significant,Not significant,0.395
+244,60.0,1.0,Not significant,Not significant,0.138,Not significant,Not significant,0.421
+245,62.0,0.0,Not significant,Not significant,0.291,Not significant,Not significant,0.491
+246,60.0,1.0,Not significant,Not significant,0.192,Not significant,Not significant,0.424
+247,60.0,1.0,Not significant,Not significant,0.365,Not significant,Not significant,0.393
+251,68.0,0.0,Not significant,Not significant,0.425,Low-Low,Low-Low,0.001
+252,72.0,0.0,Not significant,Not significant,0.376,Low-Low,Low-Low,0.001
+253,62.0,0.0,Not significant,Not significant,0.312,Not significant,Not significant,0.291
+254,67.0,0.0,Low-High,Low-High,0.001,Not significant,Not significant,0.125
+255,66.0,0.0,Not significant,Not significant,0.463,Low-Low,Low-Low,0.001
+256,70.0,0.0,Not significant,Not significant,0.476,Low-Low,Low-Low,0.001
+260,61.0,0.0,Not significant,Not significant,0.189,Low-Low,Low-Low,0.001
+261,75.0,0.0,Not significant,Not significant,0.493,Low-Low,Low-Low,0.001
+262,72.0,0.0,Not significant,Not significant,0.499,Low-Low,Low-Low,0.001
+263,66.0,0.0,Not significant,Not significant,0.181,Not significant,Not significant,0.419
+264,65.0,0.0,Not significant,Not significant,0.453,Low-Low,Low-Low,0.001
+265,63.0,0.0,Not significant,Not significant,0.377,Low-Low,Low-Low,0.001
+266,62.0,0.0,Not significant,Not significant,0.345,Not significant,Not significant,0.1
+267,59.0,1.0,Not significant,Not significant,0.2,Not significant,Not significant,0.431
+268,56.0,1.0,Not significant,Not significant,0.155,Not significant,Not significant,0.331
+269,88.0,0.0,Not significant,Not significant,0.446,Low-Low,Low-Low,0.001
+271,50.0,2.0,Not significant,Not significant,0.112,Not significant,Not significant,0.361
+272,56.0,1.0,Not significant,Not significant,0.149,Not significant,Not significant,0.323
+280,67.0,0.0,Low-High,Low-High,0.001,Not significant,Not significant,0.129
+281,62.0,0.0,Not significant,Not significant,0.335,Not significant,Not significant,0.382
+282,58.0,1.0,Not significant,Not significant,0.139,Not significant,Not significant,0.453
+283,62.0,0.0,Not significant,Not significant,0.134,Not significant,Not significant,0.473
+284,58.0,1.0,Not significant,Not significant,0.44,High-Low,High-Low,0.001
+285,62.0,0.0,Not significant,Not significant,0.235,Not significant,Not significant,0.428
+286,74.0,0.0,Not significant,Not significant,0.24,Not significant,Not significant,0.232
+287,60.0,1.0,Not significant,Not significant,0.438,High-Low,High-Low,0.001
+288,74.0,0.0,Not significant,Not significant,0.43,Not significant,Not significant,0.178
+290,80.0,0.0,Not significant,Not significant,0.277,Low-Low,Low-Low,0.001
+291,66.0,0.0,Not significant,Not significant,0.397,Not significant,Not significant,0.127
+292,74.0,0.0,Not significant,Not significant,0.12,Low-Low,Low-Low,0.001
+293,75.0,0.0,Not significant,Not significant,0.103,Low-Low,Low-Low,0.001
+294,71.0,0.0,Not significant,Not significant,0.216,Low-Low,Low-Low,0.001
+295,67.0,0.0,Low-High,Low-High,0.001,Low-Low,Low-Low,0.001
+296,79.0,0.0,Not significant,Not significant,0.141,Low-Low,Low-Low,0.001
+297,75.0,0.0,High-High,Not significant,0.027,Low-Low,Low-Low,0.001
+298,71.0,0.0,High-High,Not significant,0.037,Low-Low,Low-Low,0.001
+320,69.0,0.0,Not significant,Not significant,0.294,Low-Low,Low-Low,0.001
+321,73.0,0.0,Not significant,Not significant,0.285,Low-Low,Low-Low,0.001
+322,76.0,0.0,Not significant,Not significant,0.338,Low-Low,Low-Low,0.001
+323,72.0,0.0,Not significant,Not significant,0.199,Low-Low,Low-Low,0.001
+324,64.0,0.0,Not significant,Not significant,0.294,Low-Low,Low-Low,0.001
+325,75.0,0.0,Not significant,Not significant,0.443,Low-Low,Low-Low,0.001
+326,66.0,0.0,Not significant,Not significant,0.299,Low-Low,Low-Low,0.001
+327,71.0,0.0,Not significant,Not significant,0.3,Low-Low,Low-Low,0.001
+328,74.0,0.0,Not significant,Not significant,0.5,Low-Low,Low-Low,0.001
+329,71.0,0.0,Not significant,Not significant,0.458,Low-Low,Low-Low,0.001
+334,85.0,0.0,Not significant,Not significant,0.243,Low-Low,Low-Low,0.001
+335,79.0,0.0,Not significant,Not significant,0.245,Low-Low,Low-Low,0.001
+336,66.0,0.0,Not significant,Not significant,0.225,Low-Low,Low-Low,0.001
+350,82.0,0.0,Not significant,Not significant,0.141,Low-Low,Low-Low,0.001
+351,88.0,0.0,Not significant,Not significant,0.189,Low-Low,Low-Low,0.001
+421,66.0,0.0,Low-Low,Low-Low,0.001,Low-Low,Low-Low,0.001
+423,40.0,4.0,Not significant,Not significant,0.074,Not significant,Not significant,0.303
+424,35.0,3.0,Not significant,Not significant,0.064,High-High,Not significant,0.042
+426,51.0,1.0,Not significant,Not significant,0.411,High-Low,High-Low,0.001
+427,63.0,0.0,Not significant,Not significant,0.175,Not significant,Not significant,0.169
+428,55.0,1.0,Not significant,Not significant,0.069,Not significant,Not significant,0.104
+442,63.0,0.0,Not significant,Not significant,0.057,Low-High,Not significant,0.048
+510,39.0,2.0,Not significant,Not significant,0.056,Not significant,Not significant,0.329
+511,47.0,1.0,Low-Low,Not significant,0.027,Not significant,Not significant,0.21
+512,51.0,1.0,Not significant,Not significant,0.083,Not significant,Not significant,0.48
+514,60.0,1.0,Low-Low,Not significant,0.042,Not significant,Not significant,0.245
+515,45.0,1.0,Low-Low,Not significant,0.019,Not significant,Not significant,0.235
+517,57.0,1.0,Low-Low,Not significant,0.03,Not significant,Not significant,0.206
+518,61.0,0.0,Not significant,Not significant,0.344,Not significant,Not significant,0.299
+519,59.0,1.0,Not significant,Not significant,0.136,Not significant,Not significant,0.404
+521,62.0,0.0,Not significant,Not significant,0.487,Low-Low,Low-Low,0.001
+522,82.0,0.0,Not significant,Not significant,0.457,Not significant,Not significant,0.121
+523,79.0,0.0,Not significant,Not significant,0.083,Not significant,Not significant,0.082
+524,43.0,5.0,Not significant,Not significant,0.206,Not significant,Not significant,0.286
+525,57.0,1.0,Not significant,Not significant,0.233,Not significant,Not significant,0.239
+526,62.0,0.0,Not significant,Not significant,0.499,Not significant,Not significant,0.094
+527,47.0,3.0,Not significant,Not significant,0.146,Not significant,Not significant,0.224
+528,67.0,0.0,Low-Low,Low-Low,0.001,Low-High,Low-High,0.019
+529,54.0,2.0,Not significant,Not significant,0.14,Not significant,Not significant,0.098
+531,79.0,0.0,Not significant,Not significant,0.371,Low-Low,Low-Low,0.001
+532,62.0,0.0,Not significant,Not significant,0.288,Not significant,Not significant,0.427
+533,80.0,0.0,Not significant,Not significant,0.396,Low-Low,Low-Low,0.001
+541,55.0,1.0,Not significant,Not significant,0.123,Not significant,Not significant,0.277
+543,43.0,1.0,Low-Low,Not significant,0.015,High-High,High-High,0.008
+544,61.0,0.0,Low-Low,Not significant,0.03,Not significant,Not significant,0.158
+545,41.0,4.0,Low-Low,Low-Low,0.01,High-High,High-High,0.001
+546,51.0,4.0,Low-Low,Low-Low,0.012,High-High,High-High,0.016
+547,36.0,5.0,Low-Low,Low-Low,0.001,High-High,High-High,0.001
+548,41.0,4.0,Low-Low,Low-Low,0.003,High-High,High-High,0.001
+549,42.0,4.0,Low-Low,Low-Low,0.003,High-High,High-High,0.001
+621,33.0,5.0,Low-Low,Low-Low,0.001,High-High,High-High,0.001
+622,52.0,3.0,Low-Low,Low-Low,0.002,High-High,High-High,0.001
+623,41.0,4.0,Low-Low,Low-Low,0.001,High-High,High-High,0.001
+624,21.0,5.0,Low-Low,Low-Low,0.001,High-High,High-High,0.001
+625,24.0,5.0,Low-Low,Low-Low,0.001,High-High,High-High,0.001
+626,22.0,5.0,Low-Low,Low-Low,0.001,High-High,High-High,0.001
+627,20.0,5.0,Low-Low,Low-Low,0.001,High-High,High-High,0.001
+628,21.0,5.0,Low-Low,Low-Low,0.001,High-High,High-High,0.001
+629,36.0,4.0,Low-Low,Low-Low,0.008,High-High,High-High,0.009
+631,41.0,4.0,Low-Low,Low-Low,0.006,High-High,High-High,0.001
+634,44.0,4.0,Low-Low,Low-Low,0.001,High-High,High-High,0.001
+722,45.0,3.0,Low-Low,Low-Low,0.003,High-High,High-High,0.001
+723,33.0,4.0,Low-Low,Low-Low,0.001,High-High,High-High,0.001
+725,36.0,4.0,Low-Low,Not significant,0.015,High-High,High-High,0.021
+726,29.0,4.0,Low-Low,Not significant,0.013,High-High,High-High,0.014
+727,46.0,3.0,Low-Low,Low-Low,0.003,High-High,High-High,0.005
+728,43.0,4.0,Not significant,Not significant,0.113,Not significant,Not significant,0.103
+729,44.0,4.0,Low-Low,Not significant,0.016,High-High,Not significant,0.035
+751,57.0,1.0,Not significant,Not significant,0.132,Not significant,Not significant,0.135
+753,60.0,1.0,Low-Low,Not significant,0.042,Not significant,Not significant,0.07
+754,50.0,2.0,Not significant,Not significant,0.1,Not significant,Not significant,0.135
+755,45.0,3.0,Not significant,Not significant,0.079,Not significant,Not significant,0.122
+756,57.0,1.0,Not significant,Not significant,0.103,Not significant,Not significant,0.127
+757,71.0,0.0,Not significant,Not significant,0.198,Not significant,Not significant,0.169
+758,47.0,3.0,Low-Low,Not significant,0.04,Not significant,Not significant,0.107
+759,52.0,2.0,Low-Low,Not significant,0.033,High-High,Not significant,0.046
+820,103.0,0.0,Not significant,Not significant,0.143,Low-Low,Low-Low,0.001
+822,80.0,0.0,High-High,Not significant,0.045,Low-Low,Low-Low,0.001
+825,97.0,0.0,High-High,Not significant,0.021,Low-Low,Low-Low,0.001
+826,82.0,0.0,High-High,High-High,0.006,Low-Low,Low-Low,0.001
+827,97.0,0.0,High-High,Not significant,0.04,Low-Low,Low-Low,0.001
+828,79.0,0.0,High-High,Not significant,0.034,Low-Low,Low-Low,0.001
+831,87.0,0.0,High-High,High-High,0.001,Low-Low,Low-Low,0.001
+832,100.0,0.0,High-High,Not significant,0.043,Low-Low,Low-Low,0.001
+835,100.0,0.0,Not significant,Not significant,0.092,Low-Low,Low-Low,0.001
+836,79.0,0.0,High-High,High-High,0.009,Low-Low,Low-Low,0.001
+837,84.0,0.0,High-High,Not significant,0.029,Low-Low,Low-Low,0.001
+838,76.0,0.0,High-High,High-High,0.004,Low-Low,Low-Low,0.001
+839,91.0,0.0,High-High,High-High,0.009,Low-Low,Low-Low,0.001
+951,95.0,0.0,High-Low,High-Low,0.001,Low-Low,Low-Low,0.001
+971,113.0,0.0,High-High,High-High,0.001,Low-Low,Low-Low,0.001
+972,111.0,0.0,High-High,High-High,0.001,Low-Low,Low-Low,0.001
+975,89.0,0.0,High-Low,High-Low,0.001,Low-Low,Low-Low,0.001
