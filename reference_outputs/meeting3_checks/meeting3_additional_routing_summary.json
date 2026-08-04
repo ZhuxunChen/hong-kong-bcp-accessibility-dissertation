@@ -1,0 +1,29 @@
+{
+  "extended_repeat_check": {
+    "od_pairs": 60,
+    "stable_30_majority": 36,
+    "median_valid_share": 1.0,
+    "median_p50_sd_minutes_stable": 0.6090779077480262,
+    "p95_p50_sd_minutes_stable": 1.2525835370311151,
+    "bootstrap_mean_classification_agreement": 1.0,
+    "bootstrap_p05_classification_agreement": 1.0,
+    "bootstrap_median_mae_minutes": 0.0,
+    "bootstrap_p95_mae_minutes": 0.0
+  },
+  "hsr_sensitivity": {
+    "stable_six_origins": 209,
+    "stable_seven_origins": 216,
+    "matched_n": 209,
+    "mean_min_tt_6": 67.0,
+    "mean_min_tt_7": 40.65071770334928,
+    "gini_min_tt_6": 0.14832980082531888,
+    "gini_min_tt_7": 0.24090931617693445,
+    "zero_within_60_6_share": 0.6602870813397129,
+    "zero_within_60_7_share": 0.13875598086124402,
+    "gini_gateway_count_6": 0.7780194287371323,
+    "gini_gateway_count_7": 0.4171014045377375,
+    "hsr_nearest_count_matched": 159,
+    "median_reduction_if_improved": 37.0,
+    "max_reduction": 60.0
+  }
+}

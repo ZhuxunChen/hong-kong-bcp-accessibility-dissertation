@@ -1,0 +1,5 @@
+asset,source
+TPU geography,reference_outputs/stage9a/inputs/tpu_geography_v3.gpkg
+Accessibility,reference_outputs/stage9a/results/accessibility_tpu_v3.csv
+MTR network,reference_outputs/stage9a/network/mtr_gtfs_bidirectional_v3.zip
+BCPs,reference_outputs/stage9a/inputs/bcp_destination_provenance_v3.csv

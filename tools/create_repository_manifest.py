@@ -7,13 +7,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "docs" / "REPOSITORY_MANIFEST.sha256"
 EXCLUDED_PARTS = {".git", ".venv", "__pycache__", ".Rproj.user"}
-EXCLUDED_NAMES = {"network.dat", "r5r-log.log", "gtfs_errors.csv"}
+EXCLUDED_NAMES = {"network.dat", "r5r-log.log", "gtfs_errors.csv", "Rplots.pdf"}
 RENV_RUNTIME_DIRS = {"library", "local", "cellar", "lock", "python", "sandbox", "staging"}
 
 
 def is_renv_runtime(path: Path) -> bool:
     parts = path.relative_to(ROOT).parts
     return len(parts) >= 2 and parts[0] == "renv" and parts[1] in RENV_RUNTIME_DIRS
+
+def is_generated_supplementary_output(path: Path) -> bool:
+    parts = path.relative_to(ROOT).parts
+    return len(parts) >= 3 and parts[:3] == ("analysis", "meeting3_checks", "results")
 
 def digest(path: Path) -> str:
     value = hashlib.sha256()
@@ -30,6 +34,7 @@ files = sorted(
         and not EXCLUDED_PARTS.intersection(path.parts)
         and path.name not in EXCLUDED_NAMES
         and not is_renv_runtime(path)
+        and not is_generated_supplementary_output(path)
         and ".mapdb" not in path.name
     )
 )

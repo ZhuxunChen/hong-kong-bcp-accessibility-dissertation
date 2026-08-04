@@ -1,0 +1,13 @@
+{
+  "n": 209,
+  "fixed_speed_kph": 20.0,
+  "calibrated_speed_kph": 19.812170893012986,
+  "pearson_r": 0.6855829048232706,
+  "spearman_rho": 0.6607908487717418,
+  "mae_minutes": 15.275006442635691,
+  "rmse_minutes": 19.580311419237425,
+  "median_absolute_error_minutes": 11.210290802919275,
+  "p90_absolute_error_minutes": 35.152852703766364,
+  "largest_underprediction_minutes": 52.00991399212396,
+  "largest_overprediction_minutes": -23.072328225293603
+}

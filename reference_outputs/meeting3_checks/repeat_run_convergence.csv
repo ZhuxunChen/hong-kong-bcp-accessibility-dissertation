@@ -1,0 +1,6 @@
+runs,majority_required,retained_od_pairs,classification_agreement,median_absolute_error_minutes,max_absolute_error_minutes
+3,2,36,1.0,0.0,1.0
+5,3,36,1.0,0.0,1.0
+10,5,36,1.0,0.0,1.0
+20,10,36,1.0,0.0,1.0
+30,15,36,1.0,0.0,0.0

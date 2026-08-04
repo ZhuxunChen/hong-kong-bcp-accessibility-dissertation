@@ -25,3 +25,17 @@ All travel times are scheduled public-transport minutes. IDs are strings because
 - `results/figures_and_spatial/gwr_local_results_stpug_v3.csv`: exploratory local GWR coefficients.
 
 `min_tt` is the p50 travel time to the nearest of six BCPs. `bcps_within_N` is the number of BCPs reachable within N minutes. Shares are proportions from 0 to 1; income is monthly HKD; area is km2; population density is persons per km2.
+
+## Additional robustness and scope checks
+
+- `reference_outputs/meeting3_checks/representative_od_30_runs_raw.csv`: 30 repeated R5 calls for 10 TPU origins by six BCPs.
+- `reference_outputs/meeting3_checks/repeat_run_convergence.csv`: majority-retention agreement for nested run counts.
+- `reference_outputs/meeting3_checks/five_run_rule_bootstrap.csv`: 1,000 random five-run subsets compared with the 30-run majority.
+- `reference_outputs/meeting3_checks/accessibility_tpu_7gateway_hsr_sensitivity.csv`: six-BCP baseline combined with a West Kowloon terminal-access scenario.
+- `reference_outputs/meeting3_checks/minimal_distance_benchmark_tpu.csv`: fixed-speed straight-line benchmark and network-model errors for 209 routed TPUs.
+- `reference_outputs/meeting3_checks/gwr_local_case_evidence.csv`: frozen accessibility, local GWR and nearest-stop evidence for the selected STPUG examples.
+- `reference_outputs/meeting3_checks/lo_wu_adjacent_tpu_spatial_audit.csv`: projected boundary and origin distances from Lo Wu for the ten nearest TPU polygons, joined to frozen route summaries.
+- `reference_outputs/meeting3_checks/lo_wu_tpu622_nearest_stops.csv`: nearest official-feed stops to the TPU 622 analytical origin.
+- `reference_outputs/meeting3_checks/lo_wu_route51b_frequency_windows.csv`: route 51B frequency windows intersecting 08:00-08:30.
+
+The supplementary routing files use the same p50 definition as Stage 9A. The West Kowloon scenario measures access to the terminal only and is not a complete cross-boundary journey.

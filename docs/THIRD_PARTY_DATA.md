@@ -9,6 +9,7 @@ The repository's code does not alter upstream data terms. Reusers must review th
 | `数据/HK_GTFS/hk_gtfs.zip` | Transport Department | DATA.GOV.HK Terms of Use v1.2 |
 | `数据/HK_GTFS/hong-kong-260624.osm.pbf` | OpenStreetMap contributors; Geofabrik extract | ODbL 1.0; copyright OpenStreetMap contributors |
 | `数据/HK_GTFS/mtr_gtfs.zip` | Project-generated approximation from public station/service information | Included for academic reproducibility; not an official MTR timetable; upstream rights are not transferred |
+| `analysis/meeting3_checks/inputs/shenzhen_context/440300.*` | POI86 Shenzhen district boundary snapshot | Contextual map background only; not used in routing or statistical analysis |
 
 Government data: https://data.gov.hk/en/terms-and-conditions
 

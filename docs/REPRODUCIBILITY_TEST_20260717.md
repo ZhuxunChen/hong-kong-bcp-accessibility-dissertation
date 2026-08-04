@@ -7,7 +7,7 @@ the packaged scripts and raw inputs. All nine stages completed, including five
 r5r routing repetitions, aggregation, spatial models, figures, omitted-origin
 audit and manifest generation.
 
-| Measure | Frozen v27 | Fresh full reroute |
+| Measure | Frozen Stage 9A | Fresh full reroute |
 |---|---:|---:|
 | Routed TPUs | 209 | 209 |
 | Routed STPUGs | 176 | 175 |

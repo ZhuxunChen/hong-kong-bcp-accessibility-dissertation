@@ -1,6 +1,6 @@
 # Spatial Inequality in Public Transport Accessibility to Hong Kong's Operational Land Boundary Control Points
 
-Reproducibility package for an MSc Urban Spatial Science dissertation at the UCL Centre for Advanced Spatial Analysis. This v27 package implements the corrected Stage 9A bidirectional-MTR workflow and supersedes the archived preliminary packages.
+Reproducibility package for an MSc Urban Spatial Science dissertation at the UCL Centre for Advanced Spatial Analysis. The package implements the corrected Stage 9A bidirectional-MTR workflow and the additional robustness and scope checks reported in the dissertation.
 
 Repository: https://github.com/ZhuxunChen/hong-kong-bcp-accessibility-dissertation
 
@@ -14,6 +14,8 @@ The study estimates scheduled public-transport accessibility from Hong Kong resi
 analysis/stage9a/scripts/             Nine authoritative Stage 9A scripts
 analysis/stage9a/reference_inputs/    Two small preliminary files used only for correction comparisons
 reference_outputs/stage9a/            Frozen inputs, five routing runs, results, figures and checksums
+analysis/meeting3_checks/             Executable supplementary robustness and scope checks
+reference_outputs/meeting3_checks/    Frozen supplementary outputs used in the dissertation
 docs/                                 Data dictionary, provenance and upload audit
 tools/                                Portable verification utilities
 renv.lock, renv/                      Locked R 4.5.1 package environment and bootstrap
@@ -48,7 +50,7 @@ the spatial models, inequality measures and figures:
 ./run_analysis_from_reference.sh
 ```
 
-The included comparator requires the headline values to match the frozen v27
+The included comparator requires the headline values to match the frozen Stage 9A
 results at machine precision.
 
 ### 2. Full network rerouting
@@ -84,7 +86,7 @@ shasum -a 256 -c docs/REPOSITORY_MANIFEST.sha256
 Rscript -e 'renv::status()'
 ```
 
-## Main results reported in v27
+## Main results
 
 - Mean minimum scheduled travel time across 209 routed TPUs: 67.0 minutes.
 - Minimum-travel-time Gini: 0.1483.
@@ -97,4 +99,8 @@ Rscript -e 'renv::status()'
 
 ## Data and release status
 
-Third-party sources and attribution are documented in `docs/THIRD_PARTY_DATA.md`. This repository is published as an academic reproducibility archive. The project-generated `数据/HK_GTFS/mtr_gtfs.zip` is an analytical approximation rather than an official MTR timetable, and inclusion does not transfer rights in upstream information. The dissertation PDF is intentionally omitted until the final Form A screening details have been confirmed; the final submission copy can be added afterwards without changing the analytical package.
+Third-party sources and attribution are documented in `docs/THIRD_PARTY_DATA.md`. The project-generated `数据/HK_GTFS/mtr_gtfs.zip` is an analytical approximation rather than an official MTR timetable. The dissertation document is maintained separately from this analytical repository.
+
+## Additional checks
+
+Appendix E reports a 30-run representative-OD diagnostic, a fixed-speed distance benchmark and a West Kowloon HSR gateway sensitivity. The scripts, frozen outputs and execution order are documented in [`analysis/meeting3_checks/README.md`](analysis/meeting3_checks/README.md). The same folder also reproduces the contextual study-area map, MTR-overlay map and evidence used for the Lo Wu and GWR local cases.
