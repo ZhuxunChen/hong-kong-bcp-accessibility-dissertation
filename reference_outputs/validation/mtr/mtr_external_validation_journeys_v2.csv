@@ -1,0 +1,8 @@
+journey,route_id,modelled_min,external_min,external_source_type,unique_anchor,signed_error_min,abs_error_min
+Admiralty->Lo Wu,MTR_EAL,54,45,official_TD,yes,9,9
+Lo Wu->Admiralty,MTR_EAL,54,45,official_TD (reverse duplicate of Lo Wu anchor),no,9,9
+Admiralty->Lok Ma Chau,MTR_EAL_LMC,58,50,official_TD,yes,8,8
+Central->Tsuen Wan,MTR_TWL,32,30,secondary_published,yes,2,2
+Hong Kong->Tung Chung,MTR_TCL,28,27,secondary_published,yes,1,1
+Central->Chai Wan,MTR_ISL,26,23,secondary_published,yes,3,3
+Tuen Mun->Hung Hom,MTR_TML,39,39,secondary_published,yes,0,0

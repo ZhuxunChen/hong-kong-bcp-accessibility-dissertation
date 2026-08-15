@@ -11,7 +11,7 @@ sf_use_s2(FALSE)
 args <- commandArgs(trailingOnly = FALSE)
 script_arg <- sub("^--file=", "", args[grepl("^--file=", args)])
 base <- normalizePath(file.path(dirname(script_arg), "..", "..", ".."), mustWork = TRUE)
-data_dir <- file.path(base, "数据")
+data_dir <- file.path(base, "data")
 out_dir <- file.path(base, "analysis", "stage9a", "inputs")
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
@@ -47,7 +47,7 @@ parse_members <- function(code, label) {
 
 # Census workbook: row 5 contains machine-readable field names.
 census_raw <- read_excel(
-  file.path(data_dir, "HK_普查_STPUG", "STPUG_21C.xlsx"),
+  file.path(data_dir, "hk_census_stpug", "STPUG_21C.xlsx"),
   sheet = "STPUG", skip = 4
 )
 census <- census_raw |>
@@ -80,7 +80,7 @@ crosswalk <- bind_rows(lapply(seq_len(nrow(census)), function(i) {
 }))
 
 tpu_raw <- st_read(
-  file.path(data_dir, "HK_GIS边界", "TPU_SU_2021.shp"), quiet = TRUE
+  file.path(data_dir, "hk_tpu_boundaries", "TPU_SU_2021.shp"), quiet = TRUE
 )
 source_crs <- st_crs(tpu_raw)$input
 tpu <- tpu_raw |>
@@ -147,8 +147,8 @@ read_gtfs_stops <- function(zip_path) {
   read.csv(unz(zip_path, "stops.txt"), stringsAsFactors = FALSE,
            fileEncoding = "UTF-8-BOM", check.names = FALSE)
 }
-hk_stops <- read_gtfs_stops(file.path(data_dir, "HK_GTFS", "hk_gtfs.zip"))
-mtr_stops <- read_gtfs_stops(file.path(data_dir, "HK_GTFS", "mtr_gtfs.zip"))
+hk_stops <- read_gtfs_stops(file.path(data_dir, "hk_gtfs", "hk_gtfs.zip"))
+mtr_stops <- read_gtfs_stops(file.path(data_dir, "hk_gtfs", "mtr_gtfs.zip"))
 
 bcp_spec <- data.frame(
   id = c("LW", "LMC", "HG", "SB", "MKT", "HYW"),

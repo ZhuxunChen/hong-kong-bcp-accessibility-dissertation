@@ -21,5 +21,5 @@
 - [x] Set public visibility after the final repository audit.
 - [x] Fill the confirmed student name, Student ID and sole supervisor in the dissertation copy.
 - [x] Keep the dissertation document separate from the analytical repository.
-- [x] Identify `数据/HK_GTFS/mtr_gtfs.zip` as a non-official project-generated approximation and retain the upstream-rights disclaimer.
+- [x] Identify `data/hk_gtfs/mtr_gtfs.zip` as a non-official project-generated approximation and retain the upstream-rights disclaimer.
 - [x] Regenerate `docs/REPOSITORY_MANIFEST.sha256` after the supplementary checks were added.

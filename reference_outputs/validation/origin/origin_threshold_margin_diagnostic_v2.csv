@@ -1,0 +1,14 @@
+metric,value,note
+stable_routed_TPU,209,frozen baseline
+mean_min_tt_min,67.0,frozen baseline
+median_min_tt_min,66.0,frozen baseline
+zero_access_within_60min_count,138,frozen
+zero_access_within_60min_share,66.0%,frozen centroid-based headline
+zero_access_min_tt_median_min,74.0,among the 138 zero-access TPUs
+band_60_to_70_count,52,zero-access TPUs within 10 min above the 60-min threshold
+band_70_to_80_count,43,zero-access TPUs
+band_80_to_90_count,23,zero-access TPUs
+band_over_90_count,20,zero-access TPUs
+illustrative_scenario_subtract_5min,53.6%,ILLUSTRATIVE ARITHMETIC ONLY - not a bound, buffer not derived from geometry/network, ignores TPUs that could worsen
+illustrative_scenario_subtract_10min,41.1%,ILLUSTRATIVE ARITHMETIC ONLY - not a bound, not a realistic estimate
+TPU_622_LoWu_adjacent_min_tt,52.0,already reachable (bcps_within_60=3); not part of the 66%

@@ -16,10 +16,15 @@ analysis/stage9a/reference_inputs/    Two small preliminary files used only for 
 reference_outputs/stage9a/            Frozen inputs, five routing runs, results, figures and checksums
 analysis/meeting3_checks/             Executable supplementary robustness and scope checks
 reference_outputs/meeting3_checks/    Frozen supplementary outputs used in the dissertation
+analysis/validation/                  Read-only MTR and origin-diagnostic scripts
+reference_outputs/validation/         Saved validation tables, reports and source logs
 docs/                                 Data dictionary, provenance and upload audit
 tools/                                Portable verification utilities
 renv.lock, renv/                      Locked R 4.5.1 package environment and bootstrap
-数据/                                  Nine frozen third-party/project-generated inputs
+data/                                  Nine frozen third-party/project-generated inputs
+  hk_tpu_boundaries/                   2021 TPU boundary shapefile
+  hk_census_stpug/                     2021 STPUG census workbook
+  hk_gtfs/                             Surface GTFS, analytical MTR GTFS and OSM extract
 ```
 
 The preliminary baseline files do not define the final results. They are retained only because the reanalysis report quantifies the impact of correcting the one-direction feed.
@@ -29,7 +34,7 @@ The preliminary baseline files do not define the final results. They are retaine
 - R 4.5.1
 - Java 21.0.11
 - r5r 2.4.0 / R5 engine 7.5.1
-- Python 3.12.13
+- Python 3.12.13 (Python 3.12 or newer is required to install the locked packages)
 
 The complete R environment is locked in `renv.lock`; `R-packages.txt` is a
 human-readable summary of the principal R and Java dependencies. Exact Python
@@ -99,8 +104,10 @@ Rscript -e 'renv::status()'
 
 ## Data and release status
 
-Third-party sources and attribution are documented in `docs/THIRD_PARTY_DATA.md`. The project-generated `数据/HK_GTFS/mtr_gtfs.zip` is an analytical approximation rather than an official MTR timetable. The dissertation document is maintained separately from this analytical repository.
+Third-party sources and attribution are documented in `docs/THIRD_PARTY_DATA.md`. The project-generated `data/hk_gtfs/mtr_gtfs.zip` is an analytical approximation rather than an official MTR timetable. The dissertation document is maintained separately from this analytical repository.
 
 ## Additional checks
 
 Appendix E reports a 30-run representative-OD diagnostic, a fixed-speed distance benchmark and a West Kowloon HSR gateway sensitivity. The scripts, frozen outputs and execution order are documented in [`analysis/meeting3_checks/README.md`](analysis/meeting3_checks/README.md). The same folder also reproduces the contextual study-area map, MTR-overlay map and evidence used for the Lo Wu and GWR local cases.
+
+Two further read-only checks are documented in [`analysis/validation/README.md`](analysis/validation/README.md). The MTR plausibility check compares the analytical feed with two official Transport Department gateway times and four approximate secondary line anchors. The TPU threshold-margin diagnostic reports the frozen distribution around the 60-minute threshold; it does not claim to reproduce alternative-origin routing.
