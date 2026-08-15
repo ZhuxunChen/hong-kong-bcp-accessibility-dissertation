@@ -16,7 +16,7 @@ analysis/stage9a/reference_inputs/    Two small preliminary files used only for 
 reference_outputs/stage9a/            Frozen inputs, five routing runs, results, figures and checksums
 analysis/meeting3_checks/             Executable supplementary robustness and scope checks
 reference_outputs/meeting3_checks/    Frozen supplementary outputs used in the dissertation
-analysis/validation/                  Read-only MTR and origin-diagnostic scripts
+analysis/validation/                  MTR and origin-sensitivity validation scripts
 reference_outputs/validation/         Saved validation tables, reports and source logs
 docs/                                 Data dictionary, provenance and upload audit
 tools/                                Portable verification utilities
@@ -110,4 +110,4 @@ Third-party sources and attribution are documented in `docs/THIRD_PARTY_DATA.md`
 
 Appendix E reports a 30-run representative-OD diagnostic, a fixed-speed distance benchmark and a West Kowloon HSR gateway sensitivity. The scripts, frozen outputs and execution order are documented in [`analysis/meeting3_checks/README.md`](analysis/meeting3_checks/README.md). The same folder also reproduces the contextual study-area map, MTR-overlay map and evidence used for the Lo Wu and GWR local cases.
 
-Two further read-only checks are documented in [`analysis/validation/README.md`](analysis/validation/README.md). The MTR plausibility check compares the analytical feed with two official Transport Department gateway times and four approximate secondary line anchors. The TPU threshold-margin diagnostic reports the frozen distribution around the 60-minute threshold; it does not claim to reproduce alternative-origin routing.
+Further checks are documented in [`analysis/validation/README.md`](analysis/validation/README.md). The MTR plausibility check compares the analytical feed with two official Transport Department gateway times and four approximate secondary line anchors. The TPU threshold-margin diagnostic describes the frozen distribution around the 60-minute threshold. A separate within-TPU sensitivity check routes unweighted interior points in five repetitions and retains the comparison data and final routing matrices used in the dissertation.

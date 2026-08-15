@@ -1,6 +1,6 @@
 # Validation checks added on 15 August 2026
 
-This folder contains two read-only diagnostics cited in the dissertation. They
+This folder contains validation and sensitivity checks cited in the dissertation. They
 do not modify the frozen Stage 9A results.
 
 ## MTR external plausibility check
@@ -27,3 +27,19 @@ The script describes how centroid-based minimum times sit relative to the
 `reference_outputs/validation/origin/`. No alternative origins were re-routed;
 the diagnostic therefore does not estimate the direction or magnitude of
 origin sensitivity.
+
+## Within-TPU origin re-routing
+
+The executable scripts are under `analysis/validation/origin_reroute/`:
+
+```bash
+python3 analysis/validation/origin_reroute/01_generate_alternative_origins.py
+PROJECT_ROOT=$(pwd) STAGE9A_REPS=5 Rscript analysis/validation/origin_reroute/02_route_alt_origins.R
+python3 analysis/validation/origin_reroute/03_aggregate_and_compare.py
+```
+
+The check routes 2,051 unweighted interior points and the original centroids
+five times under the frozen parameters. The points are a spatial sample, not
+population-weighted residential origins. Saved comparison data, summary
+statistics and the five final routing matrices are under
+`reference_outputs/validation/origin_reroute/`.

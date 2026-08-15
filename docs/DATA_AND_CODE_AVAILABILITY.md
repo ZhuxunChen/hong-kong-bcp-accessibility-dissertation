@@ -2,7 +2,7 @@
 
 The analysis scripts, frozen reference results, manifests and input snapshots are published as an academic reproducibility archive at https://github.com/ZhuxunChen/hong-kong-bcp-accessibility-dissertation.
 
-The executable Stage 9A workflow is under `analysis/stage9a/scripts/`. Frozen outputs are under `reference_outputs/stage9a/`, and their source-workspace checksums are verified by `tools/verify_reference_outputs.py`. The Appendix E checks are under `analysis/meeting3_checks/`, with frozen outputs under `reference_outputs/meeting3_checks/`. Large generated R5 caches are omitted because they are reconstructed from the retained OSM and GTFS inputs.
+The executable Stage 9A workflow is under `analysis/stage9a/scripts/`. Frozen outputs are under `reference_outputs/stage9a/`, and their source-workspace checksums are verified by `tools/verify_reference_outputs.py`. The Appendix E checks are under `analysis/meeting3_checks/`, with frozen outputs under `reference_outputs/meeting3_checks/`. Validation and within-TPU origin-sensitivity scripts are under `analysis/validation/`, with retained reports, comparison tables and routing matrices under `reference_outputs/validation/`. Large generated R5 caches are omitted because they are reconstructed from the retained OSM and GTFS inputs.
 
 The pre-portability 78-file manifest is retained as provenance, while
 `docs/REPOSITORY_MANIFEST.sha256` covers the current complete upload package. The

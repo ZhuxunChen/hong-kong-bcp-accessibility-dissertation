@@ -39,3 +39,11 @@ All travel times are scheduled public-transport minutes. IDs are strings because
 - `reference_outputs/meeting3_checks/lo_wu_route51b_frequency_windows.csv`: route 51B frequency windows intersecting 08:00-08:30.
 
 The supplementary routing files use the same p50 definition as Stage 9A. The West Kowloon scenario measures access to the terminal only and is not a complete cross-boundary journey.
+
+## Validation and within-TPU origin sensitivity
+
+- `reference_outputs/validation/mtr/`: selected external journey-time anchors and analytical-feed comparisons.
+- `reference_outputs/validation/origin/`: descriptive threshold-margin diagnostic for the frozen centroid results.
+- `reference_outputs/validation/origin_reroute/tpu_alt_origins_v3.csv`: 292 frozen centroids and 2,051 unweighted interior points; the interior points are not population weighted.
+- `reference_outputs/validation/origin_reroute/runs/`: five final alternative-origin routing matrices used by the 3-of-5 aggregation.
+- `reference_outputs/validation/origin_reroute/origin_reroute_comparison.csv`: TPU-level frozen, re-routed centroid, sampled best-case and sampled mean-case comparison.
