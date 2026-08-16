@@ -9,3 +9,4 @@ data.table==1.17.8
 readxl==1.4.5
 tmap==4.2
 viridis==0.6.5
+ggrepel==0.9.6

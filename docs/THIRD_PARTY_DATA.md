@@ -15,4 +15,4 @@ Government data: https://data.gov.hk/en/terms-and-conditions
 
 OpenStreetMap: https://www.openstreetmap.org/copyright
 
-The Stage 9A script `02_build_mtr_gtfs_bidirectional_v3.R` derives a validated two-direction analytical feed from the frozen project-generated MTR input. Headways and running times are approximations documented in the dissertation; no MTR endorsement is claimed.
+The Stage 9A script `02_build_mtr_gtfs_bidirectional_v3.R` derives a structurally checked two-direction analytical feed from the frozen project-generated MTR input. Headways and running times are approximations documented in the dissertation; no MTR endorsement is claimed.

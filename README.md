@@ -18,6 +18,8 @@ analysis/meeting3_checks/             Executable supplementary robustness and sc
 reference_outputs/meeting3_checks/    Frozen supplementary outputs used in the dissertation
 analysis/validation/                  MTR and origin-sensitivity validation scripts
 reference_outputs/validation/         Saved validation tables, reports and source logs
+analysis/final_figures/               Portable generator for six final explanatory figures
+reference_outputs/final_figures/      Frozen PNG/PDF/SVG figures and source-data tables
 docs/                                 Data dictionary, provenance and upload audit
 tools/                                Portable verification utilities
 renv.lock, renv/                      Locked R 4.5.1 package environment and bootstrap
@@ -87,8 +89,9 @@ from the executable `analysis/stage9a/` workspace.
 
 ```bash
 python3 tools/verify_reference_outputs.py
+python3 analysis/final_figures/verify_final_figures.py --directory reference_outputs/final_figures
 shasum -a 256 -c docs/REPOSITORY_MANIFEST.sha256
-Rscript -e 'renv::status()'
+Rscript --vanilla -e 'library(renv); renv::status(project = ".")'
 ```
 
 ## Main results
@@ -111,3 +114,7 @@ Third-party sources and attribution are documented in `docs/THIRD_PARTY_DATA.md`
 Appendix E reports a 30-run representative-OD diagnostic, a fixed-speed distance benchmark and a West Kowloon HSR gateway sensitivity. The scripts, frozen outputs and execution order are documented in [`analysis/meeting3_checks/README.md`](analysis/meeting3_checks/README.md). The same folder also reproduces the contextual study-area map, MTR-overlay map and evidence used for the Lo Wu and GWR local cases.
 
 Further checks are documented in [`analysis/validation/README.md`](analysis/validation/README.md). The MTR plausibility check compares the analytical feed with two official Transport Department gateway times and four approximate secondary line anchors. The TPU threshold-margin diagnostic describes the frozen distribution around the 60-minute threshold. A separate within-TPU sensitivity check routes unweighted interior points in five repetitions and retains the comparison data and final routing matrices used in the dissertation.
+
+The six explanatory figures added to the final dissertation are reproduced by
+[`analysis/final_figures/`](analysis/final_figures/README.md). Frozen exports and
+their source-data tables are retained under `reference_outputs/final_figures/`.

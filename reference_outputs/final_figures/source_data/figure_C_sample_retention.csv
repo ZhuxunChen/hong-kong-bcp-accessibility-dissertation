@@ -1,0 +1,6 @@
+grain,status,n,total,share
+TPU,Stable route,209,292,0.7157534246575342
+TPU,No stable route <=120 min,79,292,0.2705479452054795
+TPU,"Snap distance >1,600 m",4,292,0.0136986301369863
+STPUG,Stable route,176,211,0.8341232227488151
+STPUG,No stable route <=120 min,35,211,0.16587677725118483

@@ -6,7 +6,7 @@ Run in the project's Python env (geopandas required). Reads frozen geometry; wri
 import geopandas as gpd, numpy as np, pandas as pd
 from pathlib import Path
 from shapely.geometry import Point
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 generated_inputs = ROOT/"analysis/stage9a/inputs"
 frozen_inputs = ROOT/"reference_outputs/stage9a/inputs"
 input_dir = generated_inputs if (generated_inputs/"tpu_geography_v3.gpkg").exists() else frozen_inputs

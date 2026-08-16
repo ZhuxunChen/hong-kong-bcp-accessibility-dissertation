@@ -47,3 +47,13 @@ The supplementary routing files use the same p50 definition as Stage 9A. The Wes
 - `reference_outputs/validation/origin_reroute/tpu_alt_origins_v3.csv`: 292 frozen centroids and 2,051 unweighted interior points; the interior points are not population weighted.
 - `reference_outputs/validation/origin_reroute/runs/`: five final alternative-origin routing matrices used by the 3-of-5 aggregation.
 - `reference_outputs/validation/origin_reroute/origin_reroute_comparison.csv`: TPU-level frozen, re-routed centroid, sampled best-case and sampled mean-case comparison.
+
+## Final explanatory figures
+
+- `reference_outputs/final_figures/figure_B_workflow.*`: Figure 4.1 analytical workflow.
+- `reference_outputs/final_figures/figure_C_sample_retention.*`: Figure 4.2 stable-routing sample retention.
+- `reference_outputs/final_figures/figure_D_cumulative_access.*`: Figure 5.3 cumulative threshold access.
+- `reference_outputs/final_figures/figure_E_bcp_profile.*`: Figure 5.4 six-BCP accessibility profile.
+- `reference_outputs/final_figures/figure_F_moran_scatter.*`: Figure 5.6 global Moran scatterplots.
+- `reference_outputs/final_figures/figure_G_model_transition.*`: Figure 5.8 model transition and residual spatial dependence.
+- `reference_outputs/final_figures/source_data/`: frozen figure-level source tables verified against Stage 9A outputs.

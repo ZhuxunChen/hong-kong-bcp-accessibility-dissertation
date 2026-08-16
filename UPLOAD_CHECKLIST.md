@@ -6,6 +6,8 @@
 - [x] Five routing runs and aggregated Stage 9A results are retained.
 - [x] Main claims match the frozen Stage 9A results: 209 TPUs, 176 STPUGs, 67.0 minutes, Gini 0.1483 and 0.7780.
 - [x] Appendix E robustness and scope checks, scripts and frozen outputs are included.
+- [x] Final explanatory figures, portable generation script and frozen source-data tables are included.
+- [x] Within-TPU origin generation and aggregation commands resolve the repository root correctly.
 - [x] Frozen Stage 9A evidence passes the source manifest verifier.
 - [x] Python, R and shell syntax checks pass.
 - [x] No local absolute paths remain in repository text files.

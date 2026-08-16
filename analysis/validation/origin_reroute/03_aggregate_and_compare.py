@@ -6,7 +6,7 @@ import json
 import pandas as pd, numpy as np
 from pathlib import Path
 from scipy.stats import spearmanr
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 ALT_ROOT = ROOT/"analysis/stage9a/alt_origin_runs"
 OUTPUT_DIR = ROOT/"reference_outputs/validation/origin_reroute"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

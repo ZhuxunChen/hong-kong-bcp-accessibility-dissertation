@@ -23,6 +23,11 @@ def is_generated_supplementary_output(path: Path) -> bool:
     return len(parts) >= 3 and parts[:3] == ("analysis", "meeting3_checks", "results")
 
 
+def is_generated_final_figure_output(path: Path) -> bool:
+    parts = path.relative_to(ROOT).parts
+    return len(parts) >= 3 and parts[:3] == ("analysis", "final_figures", "results")
+
+
 def digest(path: Path) -> str:
     value = hashlib.sha256()
     with path.open("rb") as handle:
@@ -40,6 +45,7 @@ files = sorted(
         and path.name not in EXCLUDED_NAMES
         and not is_renv_runtime(path)
         and not is_generated_supplementary_output(path)
+        and not is_generated_final_figure_output(path)
         and ".mapdb" not in path.name
     )
 )
