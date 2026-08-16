@@ -8,4 +8,4 @@ fi
 
 # Install the project manager outside the activated project when necessary.
 Rscript --vanilla -e 'if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv", repos = "https://cloud.r-project.org")'
-Rscript --vanilla -e 'library(renv); renv::restore(project = ".", prompt = FALSE); renv::status(project = ".")'
+Rscript --vanilla -e 'library(renv); renv::load(project = "."); renv::restore(project = ".", prompt = FALSE); renv::status(project = ".")'

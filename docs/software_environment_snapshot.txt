@@ -18,7 +18,7 @@ tmap 4.2
 viridis 0.6.5
 
 [R lockfile]
-renv.lock: R 4.5.1, 164 package records, snapshot type all
+renv.lock: R 4.5.1, 172 package records, snapshot type all
 
 [Java]
 openjdk version "21.0.11" 2026-04-21 LTS
